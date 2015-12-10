@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4007A0C01C19B64400F3E764 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0BF1C19B64400F3E764 /* AppDelegate.swift */; };
+		4007A0C31C19B64400F3E764 /* Carbon_Kit_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0C11C19B64400F3E764 /* Carbon_Kit_Swift.xcdatamodeld */; };
+		4007A0C81C19B64400F3E764 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4007A0C61C19B64400F3E764 /* Main.storyboard */; };
+		4007A0CA1C19B64400F3E764 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4007A0C91C19B64400F3E764 /* Images.xcassets */; };
+		4007A0CD1C19B64400F3E764 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4007A0CB1C19B64400F3E764 /* LaunchScreen.xib */; };
+		4007A0D91C19B64400F3E764 /* Carbon_Kit_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0D81C19B64400F3E764 /* Carbon_Kit_SwiftTests.swift */; };
+		4007A0ED1C19B65800F3E764 /* CarbonSwipeRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0E61C19B65800F3E764 /* CarbonSwipeRefresh.m */; };
+		4007A0EE1C19B65800F3E764 /* CarbonTabSwipeNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0E81C19B65800F3E764 /* CarbonTabSwipeNavigation.m */; };
+		4007A0EF1C19B65800F3E764 /* CarbonTabSwipeSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0EA1C19B65800F3E764 /* CarbonTabSwipeSegmentedControl.m */; };
+		4007A0F01C19B65800F3E764 /* CarbonTabSwipeScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0EC1C19B65800F3E764 /* CarbonTabSwipeScrollView.m */; };
+		4007A0F21C19B6BA00F3E764 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0F11C19B6BA00F3E764 /* HomeViewController.swift */; };
+		4007A0F41C19BC4400F3E764 /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0F31C19BC4400F3E764 /* ViewControllerOne.swift */; };
+		4007A0F61C19BC4D00F3E764 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0F51C19BC4D00F3E764 /* ViewControllerTwo.swift */; };
+		4007A0F81C19BC5800F3E764 /* ViewControllerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4007A0F71C19BC5800F3E764 /* ViewControllerThree.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4007A0D31C19B64400F3E764 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4007A0B21C19B64400F3E764 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4007A0B91C19B64400F3E764;
+			remoteInfo = "Carbon Kit Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4007A0BA1C19B64400F3E764 /* Carbon Kit Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carbon Kit Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4007A0BE1C19B64400F3E764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4007A0BF1C19B64400F3E764 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4007A0C21C19B64400F3E764 /* Carbon_Kit_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Carbon_Kit_Swift.xcdatamodel; sourceTree = "<group>"; };
+		4007A0C71C19B64400F3E764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4007A0C91C19B64400F3E764 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4007A0CC1C19B64400F3E764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4007A0D21C19B64400F3E764 /* Carbon Kit SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carbon Kit SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4007A0D71C19B64400F3E764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4007A0D81C19B64400F3E764 /* Carbon_Kit_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carbon_Kit_SwiftTests.swift; sourceTree = "<group>"; };
+		4007A0E31C19B65700F3E764 /* Carbon Kit Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Carbon Kit Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		4007A0E41C19B65800F3E764 /* CarbonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonKit.h; sourceTree = "<group>"; };
+		4007A0E51C19B65800F3E764 /* CarbonSwipeRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonSwipeRefresh.h; sourceTree = "<group>"; };
+		4007A0E61C19B65800F3E764 /* CarbonSwipeRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonSwipeRefresh.m; sourceTree = "<group>"; };
+		4007A0E71C19B65800F3E764 /* CarbonTabSwipeNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonTabSwipeNavigation.h; sourceTree = "<group>"; };
+		4007A0E81C19B65800F3E764 /* CarbonTabSwipeNavigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonTabSwipeNavigation.m; sourceTree = "<group>"; };
+		4007A0E91C19B65800F3E764 /* CarbonTabSwipeSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonTabSwipeSegmentedControl.h; sourceTree = "<group>"; };
+		4007A0EA1C19B65800F3E764 /* CarbonTabSwipeSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonTabSwipeSegmentedControl.m; sourceTree = "<group>"; };
+		4007A0EB1C19B65800F3E764 /* CarbonTabSwipeScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarbonTabSwipeScrollView.h; sourceTree = "<group>"; };
+		4007A0EC1C19B65800F3E764 /* CarbonTabSwipeScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarbonTabSwipeScrollView.m; sourceTree = "<group>"; };
+		4007A0F11C19B6BA00F3E764 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4007A0F31C19BC4400F3E764 /* ViewControllerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
+		4007A0F51C19BC4D00F3E764 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		4007A0F71C19BC5800F3E764 /* ViewControllerThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerThree.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4007A0B71C19B64400F3E764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4007A0CF1C19B64400F3E764 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4007A0B11C19B64400F3E764 = {
+			isa = PBXGroup;
+			children = (
+				4007A0BC1C19B64400F3E764 /* Carbon Kit Swift */,
+				4007A0D51C19B64400F3E764 /* Carbon Kit SwiftTests */,
+				4007A0BB1C19B64400F3E764 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4007A0BB1C19B64400F3E764 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4007A0BA1C19B64400F3E764 /* Carbon Kit Swift.app */,
+				4007A0D21C19B64400F3E764 /* Carbon Kit SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4007A0BC1C19B64400F3E764 /* Carbon Kit Swift */ = {
+			isa = PBXGroup;
+			children = (
+				4007A0E21C19B64F00F3E764 /* CarbonKit */,
+				4007A0BF1C19B64400F3E764 /* AppDelegate.swift */,
+				4007A0F11C19B6BA00F3E764 /* HomeViewController.swift */,
+				4007A0F31C19BC4400F3E764 /* ViewControllerOne.swift */,
+				4007A0F51C19BC4D00F3E764 /* ViewControllerTwo.swift */,
+				4007A0F71C19BC5800F3E764 /* ViewControllerThree.swift */,
+				4007A0C61C19B64400F3E764 /* Main.storyboard */,
+				4007A0C91C19B64400F3E764 /* Images.xcassets */,
+				4007A0CB1C19B64400F3E764 /* LaunchScreen.xib */,
+				4007A0C11C19B64400F3E764 /* Carbon_Kit_Swift.xcdatamodeld */,
+				4007A0BD1C19B64400F3E764 /* Supporting Files */,
+			);
+			path = "Carbon Kit Swift";
+			sourceTree = "<group>";
+		};
+		4007A0BD1C19B64400F3E764 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4007A0BE1C19B64400F3E764 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4007A0D51C19B64400F3E764 /* Carbon Kit SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				4007A0D81C19B64400F3E764 /* Carbon_Kit_SwiftTests.swift */,
+				4007A0D61C19B64400F3E764 /* Supporting Files */,
+			);
+			path = "Carbon Kit SwiftTests";
+			sourceTree = "<group>";
+		};
+		4007A0D61C19B64400F3E764 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4007A0D71C19B64400F3E764 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4007A0E21C19B64F00F3E764 /* CarbonKit */ = {
+			isa = PBXGroup;
+			children = (
+				4007A0E41C19B65800F3E764 /* CarbonKit.h */,
+				4007A0E51C19B65800F3E764 /* CarbonSwipeRefresh.h */,
+				4007A0E61C19B65800F3E764 /* CarbonSwipeRefresh.m */,
+				4007A0E71C19B65800F3E764 /* CarbonTabSwipeNavigation.h */,
+				4007A0E81C19B65800F3E764 /* CarbonTabSwipeNavigation.m */,
+				4007A0E91C19B65800F3E764 /* CarbonTabSwipeSegmentedControl.h */,
+				4007A0EA1C19B65800F3E764 /* CarbonTabSwipeSegmentedControl.m */,
+				4007A0EB1C19B65800F3E764 /* CarbonTabSwipeScrollView.h */,
+				4007A0EC1C19B65800F3E764 /* CarbonTabSwipeScrollView.m */,
+				4007A0E31C19B65700F3E764 /* Carbon Kit Swift-Bridging-Header.h */,
+			);
+			name = CarbonKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4007A0B91C19B64400F3E764 /* Carbon Kit Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4007A0DC1C19B64400F3E764 /* Build configuration list for PBXNativeTarget "Carbon Kit Swift" */;
+			buildPhases = (
+				4007A0B61C19B64400F3E764 /* Sources */,
+				4007A0B71C19B64400F3E764 /* Frameworks */,
+				4007A0B81C19B64400F3E764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Carbon Kit Swift";
+			productName = "Carbon Kit Swift";
+			productReference = 4007A0BA1C19B64400F3E764 /* Carbon Kit Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4007A0D11C19B64400F3E764 /* Carbon Kit SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4007A0DF1C19B64400F3E764 /* Build configuration list for PBXNativeTarget "Carbon Kit SwiftTests" */;
+			buildPhases = (
+				4007A0CE1C19B64400F3E764 /* Sources */,
+				4007A0CF1C19B64400F3E764 /* Frameworks */,
+				4007A0D01C19B64400F3E764 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4007A0D41C19B64400F3E764 /* PBXTargetDependency */,
+			);
+			name = "Carbon Kit SwiftTests";
+			productName = "Carbon Kit SwiftTests";
+			productReference = 4007A0D21C19B64400F3E764 /* Carbon Kit SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4007A0B21C19B64400F3E764 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Melies Kubrick";
+				TargetAttributes = {
+					4007A0B91C19B64400F3E764 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4007A0D11C19B64400F3E764 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4007A0B91C19B64400F3E764;
+					};
+				};
+			};
+			buildConfigurationList = 4007A0B51C19B64400F3E764 /* Build configuration list for PBXProject "Carbon Kit Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4007A0B11C19B64400F3E764;
+			productRefGroup = 4007A0BB1C19B64400F3E764 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4007A0B91C19B64400F3E764 /* Carbon Kit Swift */,
+				4007A0D11C19B64400F3E764 /* Carbon Kit SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4007A0B81C19B64400F3E764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4007A0C81C19B64400F3E764 /* Main.storyboard in Resources */,
+				4007A0CD1C19B64400F3E764 /* LaunchScreen.xib in Resources */,
+				4007A0CA1C19B64400F3E764 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4007A0D01C19B64400F3E764 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4007A0B61C19B64400F3E764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4007A0F01C19B65800F3E764 /* CarbonTabSwipeScrollView.m in Sources */,
+				4007A0EE1C19B65800F3E764 /* CarbonTabSwipeNavigation.m in Sources */,
+				4007A0F41C19BC4400F3E764 /* ViewControllerOne.swift in Sources */,
+				4007A0F21C19B6BA00F3E764 /* HomeViewController.swift in Sources */,
+				4007A0F61C19BC4D00F3E764 /* ViewControllerTwo.swift in Sources */,
+				4007A0EF1C19B65800F3E764 /* CarbonTabSwipeSegmentedControl.m in Sources */,
+				4007A0C01C19B64400F3E764 /* AppDelegate.swift in Sources */,
+				4007A0F81C19BC5800F3E764 /* ViewControllerThree.swift in Sources */,
+				4007A0C31C19B64400F3E764 /* Carbon_Kit_Swift.xcdatamodeld in Sources */,
+				4007A0ED1C19B65800F3E764 /* CarbonSwipeRefresh.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4007A0CE1C19B64400F3E764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4007A0D91C19B64400F3E764 /* Carbon_Kit_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4007A0D41C19B64400F3E764 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4007A0B91C19B64400F3E764 /* Carbon Kit Swift */;
+			targetProxy = 4007A0D31C19B64400F3E764 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4007A0C61C19B64400F3E764 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4007A0C71C19B64400F3E764 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4007A0CB1C19B64400F3E764 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4007A0CC1C19B64400F3E764 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4007A0DA1C19B64400F3E764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4007A0DB1C19B64400F3E764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4007A0DD1C19B64400F3E764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Carbon Kit Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Carbon Kit Swift/Carbon Kit Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4007A0DE1C19B64400F3E764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Carbon Kit Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Carbon Kit Swift/Carbon Kit Swift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		4007A0E01C19B64400F3E764 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Carbon Kit SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carbon Kit Swift.app/Carbon Kit Swift";
+			};
+			name = Debug;
+		};
+		4007A0E11C19B64400F3E764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Carbon Kit SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carbon Kit Swift.app/Carbon Kit Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4007A0B51C19B64400F3E764 /* Build configuration list for PBXProject "Carbon Kit Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4007A0DA1C19B64400F3E764 /* Debug */,
+				4007A0DB1C19B64400F3E764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4007A0DC1C19B64400F3E764 /* Build configuration list for PBXNativeTarget "Carbon Kit Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4007A0DD1C19B64400F3E764 /* Debug */,
+				4007A0DE1C19B64400F3E764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4007A0DF1C19B64400F3E764 /* Build configuration list for PBXNativeTarget "Carbon Kit SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4007A0E01C19B64400F3E764 /* Debug */,
+				4007A0E11C19B64400F3E764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4007A0C11C19B64400F3E764 /* Carbon_Kit_Swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4007A0C21C19B64400F3E764 /* Carbon_Kit_Swift.xcdatamodel */,
+			);
+			currentVersion = 4007A0C21C19B64400F3E764 /* Carbon_Kit_Swift.xcdatamodel */;
+			path = Carbon_Kit_Swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4007A0B21C19B64400F3E764 /* Project object */;
+}
