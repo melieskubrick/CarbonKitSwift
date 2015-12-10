@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![alt tag](https://github.com/ermalkaleci/CarbonTabSwipeNavigation/blob/master/CarbonKit.jpg)
 
 ###CarbonKit v2.x is completely different from version 1.x.
@@ -124,3 +125,7 @@ class ViewController: UIViewController, CarbonTabSwipeNavigationDelegate {
 
 # LICENSE
 [The MIT License (MIT)](https://github.com/ermalkaleci/CarbonKit/blob/master/LICENSE)
+=======
+# CarbonKitSwift
+CarbonKit is an iOS OpenSource libraries collection. Like the Carbon is the base of the life, I started CarbonKit to be base of great apps ;-) Fork &amp; Contribute CarbonKit to make it better.  CarbonKit includes:  CarbonSwipeRefresh  CarbonTabSwipeNavigation
+>>>>>>> origin/master
