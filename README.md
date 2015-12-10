@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![alt tag](https://github.com/ermalkaleci/CarbonTabSwipeNavigation/blob/master/CarbonKit.jpg)
 
 ###CarbonKit v2.x is completely different from version 1.x.
