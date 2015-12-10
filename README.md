@@ -1,8 +1,5 @@
 ![alt tag](https://github.com/ermalkaleci/CarbonTabSwipeNavigation/blob/master/CarbonKit.jpg)
 
-###CarbonKit v2.x is completely different from version 1.x.
-###Version 2.x is more custimized, interacted, documented and also nullability is integrated.
-
 CarbonKit is an OpenSource iOS library that includes powerful and beauty UI controllers. I started developing these controllers inspired by Android Material Design.
 
 CarbonKit includes:
