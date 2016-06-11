@@ -10,4 +10,4 @@ CarbonKit includes:
 [The MIT License (MIT)](https://github.com/melieskubrick/CarbonKitSwift/blob/master/LICENSE)
 =======
 # CarbonKitSwift
-CarbonKit is an iOS OpenSource libraries collection. Like the Carbon is the base of the life, I started CarbonKit to be base of great apps ;-) Fork &amp; Contribute CarbonKit to make it better.  CarbonKit includes:  CarbonSwipeRefresh  CarbonTabSwipeNavigation
+CarbonKit is an iOS OpenSource libraries collection. CarbonKit includes:  CarbonSwipeRefresh  CarbonTabSwipeNavigation
