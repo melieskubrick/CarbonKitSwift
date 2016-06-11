@@ -1,4 +1,4 @@
-![alt tag](https://github.com/ermalkaleci/CarbonTabSwipeNavigation/blob/master/CarbonKit.jpg)
+![alt tag](https://github.com/melieskubrick/CarbonKitSwift/blob/master/CarbonKit.jpg)
 
 CarbonKit is an OpenSource iOS library that includes powerful and beauty UI controllers.
 
